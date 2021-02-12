@@ -1,4 +1,4 @@
-const getSum = require("../libs/number")
+const getSum = require('../libs/number');
 
 describe('test', () => {
   test('getSumTest', async () => {
