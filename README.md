@@ -1,9 +1,12 @@
-# 🧰 Simple TypeScript Starter | 2020
+# Chinese Laundry TypeScript Starter | 2021
+> A starter template for any and all TypeScript libraries related to Chinese laundry projects. This
+> includes `jest` for testing, `eslint` and `prettier` for formatting, `nodemon` for live development
+> and watchers for live testing and hot reloading.
+> ___
 
-> We talk about a lot of **advanced Node.js and TypeScript** concepts on [the blog](https://khalilstemmler.com), particularly focused around Domain-Driven Design and large-scale enterprise application patterns. However, I received a few emails from readers that were interested in seeing what a basic TypeScript starter project looks like. So I've put together just that.
+ - All original credit goes to the author of the [original repo](https://github.com/stemmlerjs/simple-typescript-starter)
 
 ### Features
-
 - Minimal
 - TypeScript v4
 - Testing with Jest
@@ -14,31 +17,24 @@
 
 ### Scripts
 
-#### `npm run start:dev`
+ - Starts the application in development using `nodemon` and `ts-node` to do hot reloading.
+   - `npm run start:dev`
 
-Starts the application in development using `nodemon` and `ts-node` to do hot reloading.
+ - Starts the app in production by first building the project with `npm run build`, and then executing the compiled JavaScript at `build/index.js`.
+   - `npm run start`
 
-#### `npm run start`
+ - Builds the app at `build`, cleaning the folder first.
+   - `npm run build`
 
-Starts the app in production by first building the project with `npm run build`, and then executing the compiled JavaScript at `build/index.js`.
+ - Runs the `jest` tests once.
+   - `npm run test`
 
-#### `npm run build`
+ - Run the `jest` tests in watch mode, waiting for file changes.
+   - `npm run test:dev`
 
-Builds the app at `build`, cleaning the folder first.
+ - Format your code using prettier
+   - `npm run prettier-format`
 
-#### `npm run test`
-
-Runs the `jest` tests once.
-
-#### `npm run test:dev`
-
-Run the `jest` tests in watch mode, waiting for file changes.
-
-#### `npm run prettier-format`
-
-Format your code.
-
-#### `npm run prettier-watch`
-
-Format your code in watch mode, waiting for file changes.
+ - Format your code in watch mode, waiting for file changes
+   - `npm run prettier-watch`
 
