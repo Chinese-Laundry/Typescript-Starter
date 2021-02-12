@@ -4,7 +4,7 @@
 > and watchers for live testing and hot reloading.
 > ___
 
- - All original credit goes to the author of the [original repo](https://github.com/stemmlerjs/simple-typescript-starter)
+ - All original credit goes to the author of the [this repo](https://github.com/stemmlerjs/simple-typescript-starter)
 
 ### Features
 - Minimal
