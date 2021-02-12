@@ -1,7 +1,7 @@
-const returnObj = require('../libs/object')
+const returnObj = require('../libs/object');
 
 describe('test', () => {
-    test('matchObjectsTest', async() => {
-        expect(returnObj({})).toMatchObject({});
-    })
-})
+  test('matchObjectsTest', async () => {
+    expect(returnObj({})).toMatchObject({});
+  });
+});

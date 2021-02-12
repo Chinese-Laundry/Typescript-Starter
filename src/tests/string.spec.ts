@@ -1,4 +1,4 @@
-const getMessage = require('../libs/string')
+const getMessage = require('../libs/string');
 
 describe('test', () => {
   test('strContainsTest', async () => {
