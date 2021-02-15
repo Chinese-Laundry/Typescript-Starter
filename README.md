@@ -11,7 +11,7 @@
 - Testing with Jest
 - Linting with Eslint and Prettier
 - Local development with Nodemon
-- Continuous Integration with [CircleCI](https://app.circleci.com/pipelines/github/jason-napolitano/Typescript-Starter?invite=false)
+- Continuous Integration with [CircleCI](https://app.circleci.com/pipelines/github/Chinese-Laundry/Typescript-Starter?invite=false)
 
 ### Scripts
 
