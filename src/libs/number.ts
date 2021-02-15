@@ -4,7 +4,7 @@
  * @param x The first number to add
  * @param y The second number to add
  */
-const getSumOrNull = (x: number, y: number): number => x + y
+const getSum = (x: number, y: number): number => x + y
 
 // export module
-module.exports = getSumOrNull
+module.exports = getSum
