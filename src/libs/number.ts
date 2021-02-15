@@ -1,5 +1,10 @@
-function getSum(x: number, y: number): number {
-  return x + y;
-}
+/**
+ * Get the sum of a number or return null
+ *
+ * @param x The first number to add
+ * @param y The second number to add
+ */
+const getSumOrNull = (x: number, y: number): number => x + y
 
-module.exports = getSum;
+// export module
+module.exports = getSumOrNull
