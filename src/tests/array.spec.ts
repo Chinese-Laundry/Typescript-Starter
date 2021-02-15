@@ -1,7 +1,7 @@
-const returnArray = require('../libs/array');
+const arr = require('../libs/array');
 
 describe('test', () => {
   test('matchObjectsTest', async () => {
-    expect.arrayContaining(returnArray());
+    expect.arrayContaining(arr());
   });
 });

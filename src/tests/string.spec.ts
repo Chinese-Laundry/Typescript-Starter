@@ -1,7 +1,7 @@
-const getMessage = require('../libs/string');
+const msg = require('../libs/string');
 
 describe('test', () => {
   test('strContainsTest', async () => {
-    expect(getMessage('Hello world!')).toContain(' world');
+    expect(msg('Hello world!')).toContain(' world');
   });
 });
