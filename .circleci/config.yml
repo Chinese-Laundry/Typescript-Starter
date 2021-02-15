@@ -3,9 +3,20 @@ orbs:
   node: circleci/node@3.0.0
 jobs:
   build:
-    docker:
-      - image: circleci/node:7.10
+    executor:
+      node/default
     steps:
       - checkout
       - run: npm install
-      - run: npm test
+  test:
+    executor:
+      node/default
+    steps:
+      - checkout
+      - run: npm run test
+
+workflows:
+  build_and_test:
+    jobs:
+      - build
+      - test
