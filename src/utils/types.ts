@@ -1,18 +1,9 @@
 // ----------------------------------------------------------------------------
-// This file is used as a central location for Typescript Type aliases. They
-// can easily be added to any Typescript project. This will make some of the
-// more commonly used type variations readily available.
+// This file is used as a central location for basic Typescript Type aliases
 // ----------------------------------------------------------------------------
-// USAGE:
-// 1 - Install NodeJS
-//     -> https://nodejs.org
-// ------------------------------------------------
-// 2 - Install Typescript
-//     -> npm install -g typescript
-//     -> yarn global add typescript
-// ------------------------------------------------
-// 4 - USE THE HELL OUT OF IT!
-//     import { ArrayOfStrings } from 'path/to/Types.ts';
+// Types Usage:
+//
+//     import { ArrayOfStrings } from 'path/to/Types';
 //
 //     let returnArrayOfStrings: ArrayOfStrings;
 //
@@ -20,8 +11,8 @@
 //       'string_one',
 //       'string_two',
 //     ]
-// ------------------------------------------------
 
+// ------------------------------------------------
 // Array and Object types
 export type ArrayOfStringsOrBooleans = (string | boolean)[];
 export type ArrayOfBooleansOrString = ArrayOfStringsOrBooleans;
