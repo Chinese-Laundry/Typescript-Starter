@@ -1,5 +1,5 @@
 # Chinese Laundry TypeScript Starter | 2021
-> A starter template for any and all TypeScript libraries related to Chinese laundry projects. This
+> A starter template for any and all projects, builds or libraries related to Chinese Laundry. This
 > includes `jest` for testing, `eslint` and `prettier` for formatting, `nodemon` for live development
 > and watchers for live testing and hot reloading.
 > ___
