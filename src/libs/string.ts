@@ -1,5 +1,3 @@
-function getMessage(message: string): string {
-  return message;
+module.exports = function(name: string): string {
+  return `Hello, ${name}`
 }
-
-module.exports = getMessage;

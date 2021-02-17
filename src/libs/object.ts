@@ -1,5 +1,5 @@
 function returnObj(data: object): object {
-  return { ...data };
+  return { ...data }
 }
 
-module.exports = returnObj;
+module.exports = returnObj
