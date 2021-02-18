@@ -18,7 +18,7 @@
     "test": "jest",
     "test:dev": "jest --watchAll",
     "test:coverage": "jest --coverage",
-    "docs:generate": "jsdoc -c ./conf.json -r ./build"
+    "docs:generate": "jsdoc -c ./jsdoc.json -r ./build"
   },
   "husky": {
     "hooks": {
