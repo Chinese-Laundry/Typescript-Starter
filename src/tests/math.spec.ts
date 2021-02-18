@@ -1,4 +1,4 @@
-import * as math from '../math'
+import * as math from '../libs/math'
 
 /** TEST SUITE INFO */
 describe("Test suite for the 'math' library", () => {

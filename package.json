@@ -17,7 +17,8 @@
     "prettier-watch:default": "onchange 'src/**/*.ts' -- prettier --write {{changed}}",
     "test": "jest",
     "test:dev": "jest --watchAll",
-    "test:coverage": "jest --coverage"
+    "test:coverage": "jest --coverage",
+    "docs:generate": "jsdoc -c ./jsdoc.json -r ./build"
   },
   "husky": {
     "hooks": {
@@ -36,6 +37,7 @@
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-prettier": "^3.1.2",
     "husky": "^4.2.3",
+    "jsdoc": "^3.6.6",
     "nodemon": "^1.19.1",
     "onchange": "^6.1.0",
     "prettier": "^1.19.1",
