@@ -8,42 +8,42 @@
 ## Features
 |   Library/Feature  |   Version   |                  NPM/Source URL               |
 |--------------------|-------------|-----------------------------------------------|
-|      typeScript    | `^ 04.0.3`  | [Visit Link](https://www.typescriptlang.org/) |
-|         jest       | `^ 26.5.3`  | [Visit Link](https://jestjs.io/)              |
-|       prettier     | `^ 1.19.1`  | [Visit Link](https://prettier.io/)            |
-|       nodemon      | `^1.19.1`   | [Visit Link](https://nodemon.io/)             |
-|        jsdoc       | `^3.6.6`    | [Visit Link](https://jsdoc.app/)              |
-|        eslint      | `^6.8.0`    | [Visit Link](https://eslint.org/)             |
+|      TypeScript    | `^ 04.0.3`  | [Visit Link](https://www.typescriptlang.org/) |
+|         Jest       | `^ 26.5.3`  | [Visit Link](https://jestjs.io/)              |
+|       Prettier     | `^ 1.19.1`  | [Visit Link](https://prettier.io/)            |
+|       Nodemon      | `^1.19.1`   | [Visit Link](https://nodemon.io/)             |
+|        Jsdoc       | `^3.6.6`    | [Visit Link](https://jsdoc.app/)              |
+|        Eslint      | `^6.8.0`    | [Visit Link](https://eslint.org/)             |
 |      Circle CI     |   `N/A`     | [Visit Link](https://circleci.com/)           |
 
 ## Usage
-Starts the application in development using `nodemon` and `ts-node` to do hot reloading.
- - `npm run start:dev`
+ - Starts the application in development using `nodemon` and `ts-node` to do hot reloading.
+    - `npm run start:dev`
 
-Starts the app in production by first building the project with `npm run build`, and then 
+ - Starts the app in production by first building the project with `npm run build`, and then 
 executing the compiled JavaScript at `build/index.js`.
- - `npm run start`
+   - `npm run start`
 
-Builds the app at `build`, cleaning the folder first.
-- `npm run build`
+ - Builds the app at `build`, cleaning the folder first.
+   - `npm run build`
 
-Runs the tests once.
-- `npm run test`
+ - Runs the tests once.
+   - `npm run test`
 
-Run tests in watch mode, waiting for file changes.
-- `npm run test:dev`
+ - Run tests in watch mode, waiting for file changes.
+   - `npm run test:dev`
 
-Runs the tests once and produce coverage reports
-- `npm run test:coverage`
+ - Runs the tests once and produce coverage reports
+   - `npm run test:coverage`
 
-Format your code using prettier
-- `npm run prettier-format`
+ - Format your code using prettier
+   - `npm run prettier-format`
 
-Format your code in watch mode, waiting for file changes
-- `npm run prettier-watch`
+ - Format your code in watch mode, waiting for file changes
+   - `npm run prettier-watch`
 
-Generate documentation for everything located in `src/libs`
-- `npm run docs:generate`
+ - Generate documentation for everything located in `src/libs`
+   - `npm run docs:generate`
 
 ## License
 BSD 3-Clause License
