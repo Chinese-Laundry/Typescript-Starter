@@ -2,33 +2,53 @@ import * as math from '../libs/math'
 
 /** TEST SUITE INFO */
 describe("Test suite for the 'math' library", () => {
-  // TEST 1
-  test('Tests the sum of two numbers using the add() function', async () => {
-    // Example test
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the add(2, 2) function will return 4', async () => {
     expect(math.add(2, 2)).toEqual(4)
   })
 
-  // TEST 2
-  test('Tests the difference between two numbers using the subtract() function', async () => {
-    // Example test
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the subtract(2, 2) function will return 0', async () => {
     expect(math.subtract(2, 2)).toEqual(0)
   })
 
-  // TEST 3
-  test('Tests the product of two numbers using the multiply() function', async () => {
-    // Example test
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the multiply(2, 2) function will return 4', async () => {
     expect(math.multiply(2, 2)).toEqual(4)
   })
 
-  // TEST 4
-  test('Tests the quotient of two numbers using the divide() function', async () => {
-    // Example test
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the divide(2, 2) function will return 1', async () => {
     expect(math.divide(2, 2)).toEqual(1)
   })
 
-  // TEST 4
-  test('Tests the exponential value of two numbers using the exp() function', async () => {
-    // Example test
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the exp(10, 2) function will return 100', async () => {
     expect(math.exp(10, 2)).toEqual(100)
+  })
+
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the pi(2, 2) function will return 3.14159...', async () => {
+    expect(math.pi()).toEqual(3.141592653589793)
+  })
+
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the ceil(10.7) function will return 11.0', async () => {
+    expect(math.ceil(10.7)).toEqual(11.0)
+  })
+
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the floor(10.2) function will return 10.0', async () => {
+    expect(math.floor(10.2)).toEqual(10.0)
+  })
+
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the cuft(5, 5, 5) function will return 125', async () => {
+    expect(math.cuft(5, 5, 5)).toEqual(125)
+  })
+
+  // ---------------------------------------------------------------------------
+  test('Tests whether or not the sqft(5, 5) function will return 25', async () => {
+    expect(math.sqft(5, 5)).toEqual(25)
   })
 })
