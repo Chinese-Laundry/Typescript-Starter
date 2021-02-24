@@ -3,7 +3,7 @@
 > includes `jest` for testing, `eslint` and `prettier` for formatting, `nodemon` for live development
 > and watchers for live testing and hot reloading.
 > ___
-- All original credit goes to the author of the [this repo](https://github.com/stemmlerjs/simple-typescript-starter)
+- Check out the Javascript variant of this repo [here](https://github.com/Chinese-Laundry/Javascript-Starter)
 
 ## Features
 |   Library/Feature  |   Version   |                  NPM/Source URL               |
